@@ -1,0 +1,101 @@
+img{
+    max-width: 70%;
+    height: 230px;
+}
+
+.fa-star,
+.fa-star-half{
+    color: rgb(243, 243, 96);
+    padding: 3% 0;
+
+}
+
+/* **********sarah ************ */
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+
+.top-left-bar-ul{
+   list-style-type : none;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+.login{
+   padding: 8px 10px 10px 0px;
+    color: white;
+    font-size: 20px;
+}
+.login:hover{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+
+.my-btn-success{
+    color: #28a745 !important;
+    background: transparent;
+    border: 1px solid #28a745 !important;
+    margin: 5px !important;
+}
+
+
+.my-btn-success:hover{
+    background: #28a745 !important;
+    color: white !important;
+    transition-duration: 0.3s !important;
+}
+
+.my-btn-danger{
+    color: #dc3545;
+    background: transparent;
+    border: 1px solid #dc3545;
+    margin: 2px;
+}
+
+.my-btn-danger:hover{
+    color: white;
+    background: #dc3545;
+    border: 1px solid #dc3545;
+}
+.my-btn-primary{
+    color:#007bff !important;
+    background-color: transparent !important; 
+    border: 1px solid #007bff !important;
+    border-radius: 2px !important;
+}
+
+.my-btn-primary:hover{
+    color: white !important;
+    background-color: #007bff !important; 
+    transition-duration: 0.3s !important;
+}
+#cart-item-options{
+    display: flex;
+    align-items: center;
+}
